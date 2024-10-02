@@ -1,0 +1,37 @@
+@import "@styles/template";
+.custom-input {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  
+    &[data-size='small'] {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    &[data-size='medium'] {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    &[data-size='large'] {
+      padding: 15px;
+      font-size: 18px;
+    }
+  
+    &:focus {
+      outline: none;
+      border-color: darken($borderColor, 10%);
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+  
+    &:disabled {
+      background-color: #f8f9fa;
+      border-color: #ced4da;
+      cursor: not-allowed;
+    }
+}

@@ -1,0 +1,11 @@
+.page-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 5px;
+}
+
+.dice-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}

@@ -1,0 +1,23 @@
+// variables.scss
+$primary-color: #007bff;
+$secondary-color: grey;
+$borderColor: #007bff;
+$primary-text-color: black;
+$primary-hover-color: darken($primary-color, 10%);
+$secondary-text-color: #007bff;
+$secondary-hover-color: darken($secondary-color, 10%);
+$disabled-color: #cccccc;
+$button-padding: 10px 20px;
+$button-font-size: 16px;
+
+$disabled-color: #cccccc;
+
+$small-padding: 5px 10px;
+$extra-small-padding: 3px 6px;
+$medium-padding: 10px 20px;
+$big-padding: 15px 30px;
+
+$small-font-size: 12px;
+$extra-small-font-size: 10px;
+$medium-font-size: 16px;
+$big-font-size: 20px;

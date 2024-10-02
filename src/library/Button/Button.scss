@@ -1,0 +1,53 @@
+@import "@styles/template";
+.custom-button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+  &:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+
+  &[data-fill="primary"] {
+    background-color: $primary-color;
+    border: none;
+    &:hover:not(:disabled) {
+      background-color: $primary-hover-color;
+    }
+  }
+
+  &[data-fill="secondary"] {
+    background-color: $secondary-color;
+
+    &:hover:not(:disabled) {
+      background-color: $secondary-hover-color;
+    }
+  }
+
+  &[data-size="small"] {
+    padding: $small-padding;
+    font-size: $small-font-size;
+  }
+
+  &[data-size="extra-small"] {
+    padding: $extra-small-padding;
+    font-size: $extra-small-font-size;
+  }
+
+  &[data-size="medium"] {
+    padding: $medium-padding;
+    font-size: $medium-font-size;
+  }
+
+  &[data-size="big"] {
+    padding: $big-padding;
+    font-size: $big-font-size;
+  }
+
+  &:disabled {
+    background-color: $disabled-color;
+    cursor: not-allowed;
+  }
+}
