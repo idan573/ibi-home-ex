@@ -1,8 +1,8 @@
 # React + TypeScript + Vite
 
-#install
+#install: 
 npm i
 
-#run the code
+#run the code: 
 
 npm run dev
